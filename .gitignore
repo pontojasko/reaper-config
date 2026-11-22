@@ -1,0 +1,11 @@
+# Local backups and machine state
+*.backup-*
+*.tmp
+.env
+.env.*
+reaper-reginfo*.ini
+reaper-vstplugins*.ini
+reaper-midihw*.ini
+UserPlugins/
+AutoMixAI_tmp/
+ReaPack/cache/
