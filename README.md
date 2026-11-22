@@ -43,6 +43,8 @@ gh repo clone pontojasko/reaper-config
 
 Os plugins VST/VST3 precisam ser instalados separadamente para cada sistema operacional. As extensões SWS, ReaPack, ReaImGui e js_ReaScriptAPI também precisam das versões nativas do sistema de destino.
 
+Algumas ações personalizadas do mapa de atalhos apontavam para scripts que não estavam no perfil nem na pasta Downloads da partição Windows durante a captura. Os atalhos ficaram preservados, mas esses arquivos ausentes não podem ser empacotados; scripts encontrados no perfil foram remapeados para `Scripts/`.
+
 ## Atualizar este backup
 
 Depois de alterar configurações no REAPER, copie os arquivos e pastas desejados para `profile/` e ajuste os arquivos em `platform/` se uma preferência depender do sistema operacional. Não copie `reaper-reginfo2.ini`, chaves de API, caches temporários ou binários de plugins para o repositório.
