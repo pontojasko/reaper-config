@@ -35,12 +35,6 @@ gh repo clone pontojasko/reaper-config
 - Presets VST3 guardados em `Documents/VST3 Presets`.
 - Configuração de REAPER separada para Linux e Windows. Caminhos pessoais conhecidos são convertidos durante a instalação.
 
-## O que fica fora
-
-- Chaves de API: a chave salva no estado do AutoMixAI foi removida. Configure-a de novo no computador de destino.
-- Registro/licença do REAPER, cache de scan de plugins, caches do ReaPack, configurações de dispositivos MIDI/áudio e plugins binários.
-- Logs temporários do AutoMixAI, projetos REAPER e arquivos de áudio.
-
 Os plugins VST/VST3 precisam ser instalados separadamente para cada sistema operacional. As extensões SWS, ReaPack, ReaImGui e js_ReaScriptAPI também precisam das versões nativas do sistema de destino.
 
 Algumas ações personalizadas do mapa de atalhos apontavam para scripts que não estavam no perfil nem na pasta Downloads da partição Windows durante a captura. Os atalhos ficaram preservados, mas esses arquivos ausentes não podem ser empacotados; scripts encontrados no perfil foram remapeados para `Scripts/`.
