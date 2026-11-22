@@ -1,4 +1,4 @@
-# REAPER config do Jasko
+# Meu Reaper Config
 
 Backup privado das configurações do REAPER, com instaladores para Linux e Windows.
 
